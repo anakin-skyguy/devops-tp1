@@ -81,7 +81,7 @@ Pour montrer ce qui arrive quand un test échoue, j'ai volontairement cassé `te
 
 - En local : `1 failed, 1 passed`.
 - Sur GitHub : le run `CI #2` (commit `c3e6ef8`) passe au **rouge**. Les étapes d'installation réussissent, seule l'étape pytest échoue avec `AssertionError: assert 'running' == 'stopped'` et `Process completed with exit code 1`.
-- Après correction (commit `09d2e30`), le run suivant repasse au **vert**.
+- Après correction (commit `09d2e30`, poussé avec le README), le run `CI #3` (commit `102017a`) repasse au **vert**.
 
 ![Échec local](screenshots/06a-pytest-fail.png)
 ![CI rouge](screenshots/06b-ci-red.png)
